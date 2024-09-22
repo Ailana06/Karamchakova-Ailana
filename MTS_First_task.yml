@@ -1,5 +1,5 @@
 name: CI
-on: [pull_request_target]
+on: [workflow_branch]
 jobs:
   print:
     runs-on: windows-latest
