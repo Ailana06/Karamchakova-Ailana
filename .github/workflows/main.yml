@@ -5,6 +5,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Print to console
-        run: date
+        run: echo Date
     
   
