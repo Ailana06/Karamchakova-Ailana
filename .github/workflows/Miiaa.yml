@@ -1,0 +1,8 @@
+name: CI
+on: [pull_request_target]
+jobs:
+  print:
+    runs-on: windows-latest
+    steps: 
+      - name: Print to console
+        run: echo Hello GH Actions!
