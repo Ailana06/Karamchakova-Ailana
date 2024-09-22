@@ -1,5 +1,5 @@
 name: CI
-on: [workflow_dispatch]
+on: [workflow_run]
 jobs:
   print:
     runs-on: windows-latest
