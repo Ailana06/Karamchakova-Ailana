@@ -3,5 +3,5 @@ name: CI
 on: 
   push:
     branches: 
-      - master
+      - mane
 
