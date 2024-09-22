@@ -1,7 +1,10 @@
 name: CI
-
-on: 
-  push:
-    branches: 
-      - mane
-
+on: [pull_request]
+jobs: 
+  print:
+    runs-on: windows-latest
+    steps:
+      - name: Print to console
+        run: date
+    
+  
