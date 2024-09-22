@@ -1,1 +1,2 @@
 # Karamchakova-Ailana
+git init
