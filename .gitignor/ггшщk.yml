@@ -1,8 +1,0 @@
-name: CI
-on: [workflow_branch]
-jobs:
-  print:
-    runs-on: windows-latest
-    steps: 
-      - name: Print to console
-        run: date
