@@ -1,3 +1,7 @@
+**/HELP.md
+.sdkmanrc
+.vscode
+
 *#
 *.iml
 *.ipr
