@@ -20,6 +20,5 @@ public class Main {
     System.out.print(numbers.get(1) + " ");
     System.out.print(numbers.get(2) + " ");
     System.out.print(numbers.get(3));
-    System.out.print(numbers.get(4));
   }
 }
